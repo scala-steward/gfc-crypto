@@ -5,7 +5,6 @@ import java.security.MessageDigest
 /**
  * Helper library for various cryptographic functions.
  */
-// move
 object HashFunctions {
 
   def sha256(str: String): Array[Byte] = sha256(str, "UTF-8")
