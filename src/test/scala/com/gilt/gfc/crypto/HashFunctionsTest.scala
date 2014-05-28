@@ -1,13 +1,12 @@
 package com.gilt.gfc.crypto
 
-import org.scalatest.FunSuite
+import org.scalatest.{Matchers, FunSuite}
 import org.scalatest.prop.Checkers
-import org.scalatest.matchers.ShouldMatchers
 
 /**
  * Tests to confirm some basic hash scenarios are working.
  */
-class HashFunctionsTest extends FunSuite with Checkers with ShouldMatchers {
+class HashFunctionsTest extends FunSuite with Checkers with Matchers {
 
   import HashFunctions._
 
