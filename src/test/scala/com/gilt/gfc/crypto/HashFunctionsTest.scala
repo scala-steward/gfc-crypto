@@ -15,7 +15,7 @@ class HashFunctionsTest extends FunSuite with Checkers with Matchers {
       str: String =>
           sha256(str).toSeq == sha256(str, "UTF-8").toSeq &&
             sha512(str).toSeq == sha512(str, "UTF-8").toSeq &&
-            sha256(str).toSeq != sha512(str)
+            sha256(str).deep != sha512(str).deep
     }
   }
 
