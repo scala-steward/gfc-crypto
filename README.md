@@ -1,4 +1,4 @@
-# gfc-crypto  [![Build Status](https://travis-ci.org/gilt/gfc-crypto.svg?branch=master)](https://travis-ci.org/gilt/gfc-crypto) [![Coverage Status](https://coveralls.io/repos/gilt/gfc-crypto/badge.svg?branch=master&service=github)](https://coveralls.io/github/gilt/gfc-crypto?branch=master)
+# gfc-crypto  [![Build Status](https://travis-ci.org/gilt/gfc-crypto.svg?branch=master)](https://travis-ci.org/gilt/gfc-crypto) [![Coverage Status](https://coveralls.io/repos/gilt/gfc-crypto/badge.svg?branch=master&service=github)](https://coveralls.io/github/gilt/gfc-crypto?branch=master) [![Join the chat at https://gitter.im/gilt/gfc](https://badges.gitter.im/gilt/gfc.svg)](https://gitter.im/gilt/gfc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 A library that contains cryptography related scala utility classes. Part of the gilt foundation classes.
