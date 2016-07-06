@@ -2,9 +2,9 @@ name := "gfc-crypto"
 
 organization := "com.gilt"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.8"
 
-crossScalaVersions := Seq("2.11.5", "2.10.4")
+crossScalaVersions := Seq("2.11.8", "2.10.5")
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.4" % "test",
