@@ -11,6 +11,6 @@ Helper library to create cryptographic hashes (SHA-256, SHA-512, of input String
 message digest (hash) formats see the documentation for java.security.MessageDigest.
 
 ## License
-Copyright 2014 Gilt Groupe, Inc.
+Copyright 2016 Gilt Groupe, Inc.
 
 Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
