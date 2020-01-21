@@ -1,6 +1,6 @@
 name := "gfc-crypto"
 
-organization := "com.gilt"
+organization := "org.gfccollective"
 
 scalaVersion := "2.12.10"
 
@@ -12,7 +12,8 @@ javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.1.0" % Test,
-  "org.scalacheck" %% "scalacheck" % "1.14.3" % Test
+  "org.scalatestplus" %% "scalacheck-1-14" % "3.1.0.1" % Test,
+  "org.scalacheck" %% "scalacheck" % "1.14.3" % Test,
 )
 
 releaseCrossBuild := true

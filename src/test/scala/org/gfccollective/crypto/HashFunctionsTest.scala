@@ -1,4 +1,4 @@
-package com.gilt.gfc.crypto
+package org.gfccollective.crypto
 
 import org.scalatestplus.scalacheck.Checkers
 import org.scalatest.funsuite.AnyFunSuite
