@@ -13,7 +13,7 @@ class HashFunctionsTest extends AnyFunSuite with Checkers with Matchers {
 
   test("basics") {
     check {
-      str: String =>
+      (str: String) =>
           sha256(str).toSeq == sha256(str, "UTF-8").toSeq &&
             sha512(str).toSeq == sha512(str, "UTF-8").toSeq &&
             sha256(str).toSeq != sha512(str).toSeq
