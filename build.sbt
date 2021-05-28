@@ -4,7 +4,7 @@ organization := "org.gfccollective"
 
 scalaVersion := "2.13.6"
 
-crossScalaVersions := Seq(scalaVersion.value, "2.12.13", "3.0.0")
+crossScalaVersions := Seq(scalaVersion.value, "2.12.14", "3.0.0")
 
 scalacOptions += "-target:jvm-1.8"
 
